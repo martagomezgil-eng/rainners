@@ -206,7 +206,7 @@ button { font-family: inherit; cursor: pointer; }
   .hero { background: #0A1230 url("hero-poster.jpg") center/cover no-repeat; }
 }
 .hero-inner { position: relative; z-index: 2; max-width: 780px; }
-.hero-logo { height: 34px; width: auto; margin-bottom: 28px; }
+.hero-logo { height: clamp(48px, 6vw, 68px); width: auto; margin-bottom: 32px; }
 .hero h1 {
   font-size: clamp(2.1rem, 4.6vw, 3.4rem);
   line-height: 1.14;
